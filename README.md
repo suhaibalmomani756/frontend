@@ -1,51 +1,47 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+### Core Framework & Language
+- **React**: For building the user interface.
+- **TypeScript**: For static type checking and safer code.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### UI & Styling
+- **Material-UI (MUI)**: For ready-made, accessible, and customizable UI components.
+- **Emotion**: For CSS-in-JS styling, used by MUI.
 
-## Available Scripts
+### Routing
+- **React Router DOM**: For client-side navigation and route protection.
 
-In the project directory, you can run:
+### HTTP & API
+- **Axios**: For making HTTP requests to the backend API.
 
-### `npm start`
+### Authentication
+- **JWT (via localStorage)**: For storing and sending authentication tokens with API requests.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Form Management & Validation
+- **React Hook Form**: For efficient and scalable form state management.
+- **Yup**: For schema-based form validation, providing user-friendly error messages and enforcing input rules.
+- **@hookform/resolvers**: To connect Yup validation schemas with React Hook Form.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Testing
+- **React Testing Library**: For testing React components in a user-centric way.
+- **Jest**: For running unit and integration tests.
+- **@testing-library/user-event**: For simulating user interactions in tests.
+- **@testing-library/jest-dom**: For custom DOM matchers in tests.
 
-### `npm test`
+### Build & Tooling
+- **Create React App (react-scripts)**: For zero-config build, test, and development scripts.
+- **Web Vitals**: For measuring and reporting web performance metrics.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Type Definitions
+- **@types/react, @types/react-dom, @types/node, @types/jest**: For TypeScript type support.
 
-### `npm run build`
+### Linting & Browser Support
+- **ESLint**: For code linting and quality.
+- **Browserslist**: For specifying supported browsers.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🗂 Project Structure Highlights
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-=======
-# frontend
-
->>>>>>> 3abba94e125e14c2221363b9636ee02643def063
+- Components are modularized in `src/components/`.
+- API logic is centralized in `src/services/api.ts`.
+- Type definitions are in `src/types/`.
+- Forms use **React Hook Form** and **Yup** for robust validation.
