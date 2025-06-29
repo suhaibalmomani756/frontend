@@ -1,51 +1,86 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+## ⚙️ Core Framework & Language
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- **React** – For building the user interface.
+- **TypeScript** – For static type checking and safer code.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🎨 UI & Styling
 
-### `npm start`
+- **Material-UI (MUI)** – Ready-made, accessible, and customizable UI components.
+- **Emotion** – CSS-in-JS styling used internally by MUI.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🔀 Routing
 
-### `npm test`
+- **React Router DOM** – For client-side navigation and route protection.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🔐 Authentication
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **JWT (via localStorage)** – Used to store and send authentication tokens with API requests.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📡 HTTP & API
 
-### `npm run eject`
+- **Axios** – For making HTTP requests to the backend API.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ✅ Form Management & Validation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- **React Hook Form** – Efficient and scalable form state management.
+- **Yup** – Schema-based form validation with user-friendly error messages.
+- **@hookform/resolvers** – Integrates Yup schemas into React Hook Form.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## 🧪 Testing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **React Testing Library** – Testing React components with user-focused interactions.
+- **Jest** – For running unit and integration tests.
+- **@testing-library/user-event** – Simulates user actions in tests.
+- **@testing-library/jest-dom** – Adds custom DOM matchers to Jest.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-=======
-# frontend
+---
 
->>>>>>> 3abba94e125e14c2221363b9636ee02643def063
+## 🛠 Build & Tooling
+
+- **Create React App (CRA)** – For zero-config build, test, and development scripts.
+- **Web Vitals** – For measuring and reporting web performance metrics.
+
+---
+
+## 📘 Type Definitions
+
+- **@types/react**, **@types/react-dom**, **@types/node**, **@types/jest** – TypeScript support for major libraries.
+
+---
+
+## 🧹 Linting & Browser Support
+
+- **ESLint** – For code linting and quality enforcement.
+- **Browserslist** – To define supported browsers for builds.
+
+---
+
+## 🗂 Project Structure Highlights
+
+- `src/pages/` – Pages like **Login**, **Register**, **Dashboard**, **CourseList**, **CreateCourse**.
+- `src/components/` – Reusable UI components like **StudentDashboard**, **InstructorDashboard**.
+- `src/routes/` – Routing utilities like **PrivateRoute**.
+- `src/services/api.ts` – Centralized API logic.
+- `src/types/` – Type definitions.
+- `src/validators/` – Form validation schemas like `authValidators.ts`, `courseValidators.ts`.
+- Forms use **React Hook Form** and **Yup** for robust validation.
+
+---
+
+## 📦 How to Start
+
+```bash
+npm install
+npm start
