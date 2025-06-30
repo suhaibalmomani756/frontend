@@ -1,36 +1,36 @@
-## ⚙️ Core Framework & Language
+## Core Framework & Language
 
 - **React** – For building the user interface.
 - **TypeScript** – For static type checking and safer code.
 
 ---
 
-## 🎨 UI & Styling
+##  UI & Styling
 
 - **Material-UI (MUI)** – Ready-made, accessible, and customizable UI components.
 - **Emotion** – CSS-in-JS styling used internally by MUI.
 
 ---
 
-## 🔀 Routing
+##  Routing
 
 - **React Router DOM** – For client-side navigation and route protection.
 
 ---
 
-## 🔐 Authentication
+##  Authentication
 
 - **JWT (via localStorage)** – Used to store and send authentication tokens with API requests.
 
 ---
 
-## 📡 HTTP & API
+## HTTP & API
 
 - **Axios** – For making HTTP requests to the backend API.
 
 ---
 
-## ✅ Form Management & Validation
+## Form Management & Validation
 
 - **React Hook Form** – Efficient and scalable form state management.
 - **Yup** – Schema-based form validation with user-friendly error messages.
@@ -38,7 +38,7 @@
 
 ---
 
-## 🧪 Testing
+## Testing
 
 - **React Testing Library** – Testing React components with user-focused interactions.
 - **Jest** – For running unit and integration tests.
@@ -60,14 +60,14 @@
 
 ---
 
-## 🧹 Linting & Browser Support
+## Linting & Browser Support
 
 - **ESLint** – For code linting and quality enforcement.
 - **Browserslist** – To define supported browsers for builds.
 
 ---
 
-## 🗂 Project Structure Highlights
+## Project Structure Highlights
 
 - `src/pages/` – Pages like **Login**, **Register**, **Dashboard**, **CourseList**, **CreateCourse**.
 - `src/components/` – Reusable UI components like **StudentDashboard**, **InstructorDashboard**.
