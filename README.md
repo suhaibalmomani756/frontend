@@ -47,14 +47,14 @@
 
 ---
 
-## 🛠 Build & Tooling
+## Build & Tooling
 
 - **Create React App (CRA)** – For zero-config build, test, and development scripts.
 - **Web Vitals** – For measuring and reporting web performance metrics.
 
 ---
 
-## 📘 Type Definitions
+## Type Definitions
 
 - **@types/react**, **@types/react-dom**, **@types/node**, **@types/jest** – TypeScript support for major libraries.
 
@@ -79,7 +79,7 @@
 
 ---
 
-## 📦 How to Start
+## How to Start
 
 ```bash
 npm install
